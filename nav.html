@@ -115,7 +115,7 @@
     <!--                <div class="cookie-modal__text">-->
     <!--                    Конфиденциальность и файлы cookie: на этом сайте используются файлы cookie. Продолжая пользоваться сайтом, вы соглашаетесь с их использованием.-->
     <!--                    <br>-->
-    <!--                    Дополнительную информацию, в том числе об управлении файлами cookie, можно найти <a href="">здесь</a>.-->
+    <!--                    Дополнительную информацию, в том числе об управлении файлами cookie, можно найти <a href="" target="_blank">здесь</a>.-->
     <!--                </div>-->
     <!--            </div>-->
     <!--            <button class="_accept-cookie cookie-modal__btn btn btn-turquoise">-->
@@ -148,21 +148,56 @@
     <script src="js/main.min.js"></script>
 
     <!--    <script>-->
-    <!--        let cookieModal = document.querySelector(".cookie-modal")-->
-    <!--        const isAgreeWithCookies = !localStorage.getItem("isAgreeWithCookies");-->
-    <!--        if(isAgreeWithCookies){-->
-    <!--            cookieModal.classList.add("_active")-->
-    <!--        }-->
+    <!--        let cookiePopup = `-->
+    <!--        <div class="cookie-modal _active">-->
+    <!--        <button class="_close-cookie close-btn">-->
+    <!--            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+    <!--                <path d="M16 5.05L14.95 4L10 8.95L5.05 4L4 5.05L8.95 10L4 14.95L5.05 16L10 11.05L14.95 16L16 14.95L11.05 10L16 5.05Z" fill="#2E2C2F" />-->
+    <!--            </svg>-->
+    <!--        </button>-->
+    <!--        <div class="cookie-modal__grid">-->
+    <!--            <div class="cookie-modal__content">-->
+    <!--                <div class="cookie-modal__title">-->
+    <!--                    Мы используем cookies-->
+    <!--                </div>-->
+    <!--                <div class="cookie-modal__text">-->
+    <!--                    Конфиденциальность и файлы cookie: на этом сайте используются файлы cookie. Продолжая пользоваться сайтом, вы соглашаетесь с их использованием.-->
+    <!--                    <br>-->
+    <!--                    Дополнительную информацию, в том числе об управлении файлами cookie, можно найти <a href="https://mrt-kazan.ru/wp-content/uploads/2025/12/Политика-использования-файлов-cookies-12.2025.docx.pdf" target="_blank">здесь</a>.-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <button class="_accept-cookie cookie-modal__btn btn btn-turquoise">-->
+    <!--                <span>Принять</span>-->
+    <!--            </button>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--        `-->
 
-    <!--        if(cookieModal){-->
-    <!--            cookieModal.querySelector("._close-cookie").onclick = function () {-->
-    <!--                cookieModal.classList.remove("_active")-->
-    <!--            }-->
-    <!--            cookieModal.querySelector("._accept-cookie").onclick = function () {-->
-    <!--                localStorage.setItem("isAgreeWithCookies", "true");-->
-    <!--                cookieModal.classList.remove("_active")-->
-    <!--            }-->
-    <!--        }-->
+
+    <!--        window.addEventListener('DOMContentLoaded', () => {-->
+    <!--            setTimeout(()=> {-->
+    <!--                document.body.append(cookiePopup)-->
+    <!--                document.body.insertAdjacentHTML(-->
+    <!--                    'beforeend',-->
+    <!--                    cookiePopup-->
+    <!--                );-->
+    <!--                let cookieModal = document.querySelector(".cookie-modal")-->
+    <!--                const isAgreeWithCookies = !localStorage.getItem("isAgreeWithCookies");-->
+    <!--                if(isAgreeWithCookies){-->
+    <!--                    cookieModal.classList.add("_active")-->
+    <!--                }-->
+
+    <!--                if(cookieModal){-->
+    <!--                    cookieModal.querySelector("._close-cookie").onclick = function () {-->
+    <!--                        cookieModal.classList.remove("_active")-->
+    <!--                    }-->
+    <!--                    cookieModal.querySelector("._accept-cookie").onclick = function () {-->
+    <!--                        localStorage.setItem("isAgreeWithCookies", "true");-->
+    <!--                        cookieModal.classList.remove("_active")-->
+    <!--                    }-->
+    <!--                }-->
+    <!--            },5000)-->
+    <!--        })-->
     <!--    </script>-->
 </body>
 
