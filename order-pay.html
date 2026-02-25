@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="color-scheme" content="light only">
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <title>Оплата заказа</title>
+</head>
+
+
+<body class="m-page">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__inner">
+                <a href="" class="header__logo">
+                    <img class="header__logo-img" src="img/logo2.webp" alt="">
+                    <img class="header__logo-img2" src="img/logo3.webp" alt="">
+                </a>
+
+                <button class="burger m-btn-blue">
+                    <img src="img/burger.svg" alt="" class="_view1">
+                    <img src="img/burger2.svg" alt="" class="_view2">
+                </button>
+
+                <div class="header__content">
+                    <div class="header__top _flex-between">
+                        <div class="header-city">
+                            <div class="header-city__show _flex">
+                                <img src="img/mark.svg" alt="">
+                                <span class="body-s">Москва</span>
+                                <span class="body-s gray-text">(419 пунктов выдачи заказов)</span>
+                            </div>
+                        </div>
+
+                        <div class="header-contacts _flex">
+                            <div class="header-contacts__support _flex">
+                                <div class="header-contacts__support-title body-s gray-text">
+                                    Служба поддержки:
+                                </div>
+                                <div class="socials">
+                                    <a href="" class="socials__item">
+                                        <img src="img/whatsapp.svg" alt="">
+                                    </a>
+                                    <a href="" class="socials__item">
+                                        <img src="img/max.svg" alt="">
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="header-contacts__info _flex">
+                                <div class="header-contacts__phone">
+                                    <a href="tel:+79990552111" class="h5">
+                                        +7 (999) 055-2111
+                                    </a>
+                                </div>
+                                <div class="header-contacts__time body-s gray-text">
+                                    Пн-Вс: 09:00-20:00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header-action">
+                    <button class="_toggle-search header-action__btn header-action__btn--search m-btn-white">
+                        <img src="img/search2.svg" alt="">
+                    </button>
+                    <button class="header-action__btn header-action__btn--phone m-btn-white">
+                        <img src="img/phone.svg" alt="">
+                    </button>
+                    <button class="header-action__btn m-btn-blue">
+                        <img src="img/bag3.svg" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="menu">
+                <nav class="nav">
+                    <a href="" class="nav__link">
+                        <span>О компании</span>
+                    </a>
+                    <a href="" class="nav__link">
+                        <span>Акции</span>
+                    </a>
+                    <div class="nav-item">
+                        <div class="nav-item__top">
+                            <span>Покупателю</span>
+                        </div>
+                        <div class="nav-item__bottom">
+                            <div class="nav-item__inner">
+                                <ul class="nav-item__list">
+                                    <li><a href="">Доставка</a></li>
+                                    <li><a href="">Самовывоз</a></li>
+                                    <li><a href="">Оплата заказа</a></li>
+                                    <li><a href="">Оформление заказа</a></li>
+                                    <li><a href="">Возврат и гарантия</a></li>
+                                    <li><a href="">Установка</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="nav__link">
+                        <span>Отзывы</span>
+                    </a>
+                    <a href="" class="nav__link">
+                        <span>Контакты</span>
+                    </a>
+                    <a href="" class="nav__link">
+                        <span>Блог</span>
+                    </a>
+                </nav>
+                <button class="menu__consult m-btn m-btn-blue">
+                    <span>Помощь консультанта</span>
+                </button>
+                <div class="socials">
+                    <a href="" class="socials__item">
+                        <img src="img/whatsapp.svg" alt="">
+                    </a>
+                    <a href="" class="socials__item">
+                        <img src="img/max.svg" alt="">
+                    </a>
+                </div>
+
+            </div>
+
+            <button class="_toggle-catalog catalog-btn m-btn-blue">
+                <span class="catalog-btn__img">
+        <img src="img/burger.svg" alt="" class="_view1">
+        <img src="img/burger2.svg" alt="" class="_view2">
+    </span>
+                <span class="catalog-btn__title">Каталог</span>
+            </button>
+
+            <div class="header-search">
+                <div class="container">
+                    <div class="header-search__inner">
+                        <div class="m-search">
+                            <div class="fg">
+                                <input type="text" placeholder="Что будем искать?">
+                            </div>
+                            <button class="m-search__btn">
+                                <img src="img/search.svg" alt="">
+                            </button>
+                        </div>
+
+                        <button class="header-search__btn m-btn m-btn-blue-outline">
+                            <span>Искать</span>
+                        </button>
+                        <button class="header-search__close">
+                            <img src="img/close2.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="header-search__bg modal-bg _toggle-search"></div>
+
+            <div class="header-catalog">
+                <div class="header-catalog__top">
+                    <button class="header-catalog__close _toggle-catalog">
+                        <img src="img/close.svg" alt="">
+                    </button>
+                </div>
+                <div class="header-catalog__inner">
+                    <div class="header-catalog__col">
+                        <div class="h4">
+                            Каталог
+                        </div>
+                        <div class="header-catalog__items _mt20">
+                            <div class="header-catalog__item" data-id="1">
+                                <img src="img/menu-icon2.webp" alt="">
+                                <span class="body-m">Audi</span>
+                            </div>
+                            <div class="header-catalog__item" data-id="2">
+                                <img src="img/menu-icon3.webp" alt="">
+                                <span class="body-m">BMW</span>
+                            </div>
+                            <div class="header-catalog__item" data-id="3">
+                                <img src="img/menu-icon4.webp" alt="">
+                                <span class="body-m">Brilliance</span>
+                            </div>
+                            <div class="header-catalog__item" data-id="4">
+                                <img src="img/menu-icon9.webp" alt="">
+                                <span class="body-m">BYD</span>
+                            </div>
+                            <div class="header-catalog__item" data-id="5">
+                                <img src="img/menu-icon5.webp" alt="">
+                                <span class="body-m">Chery</span>
+                            </div>
+                            <div class="header-catalog__item" data-id="6">
+                                <img src="img/menu-icon6.webp" alt="">
+                                <span class="body-m">Chevrolet</span>
+                            </div>
+                            <div class="header-catalog__item" data-id="7">
+                                <img src="img/menu-icon7.webp" alt="">
+                                <span class="body-m">Citroen</span>
+                            </div>
+                            <div class="header-catalog__item" data-id="8">
+                                <img src="img/menu-icon8.webp" alt="">
+                                <span class="body-m">Daewoo</span>
+                            </div>
+                            <div class="header-catalog__item" data-id="9">
+                                <img src="img/menu-icon3.webp" alt="">
+                                <span class="body-m">Brilliance</span>
+                            </div>
+                            <div class="header-catalog__item" data-id="10">
+                                <img src="img/menu-icon9.webp" alt="">
+                                <span class="body-m">BYD</span>
+                            </div>
+                            <div class="header-catalog__item" data-id="11">
+                                <img src="img/menu-icon4.webp" alt="">
+                                <span class="body-m">Chery</span>
+                            </div>
+                            <div class="header-catalog__item" data-id="12">
+                                <img src="img/menu-icon5.webp" alt="">
+                                <span class="body-m">Chevrolet</span>
+                            </div>
+                            <div class="header-catalog__item" data-id="13">
+                                <img src="img/menu-icon6.webp" alt="">
+                                <span class="body-m">Chevrolet</span>
+                            </div>
+                            <div class="header-catalog__item" data-id="14">
+                                <img src="img/menu-icon6.webp" alt="">
+                                <span class="body-m">Chevrolet</span>
+                            </div>
+                            <div class="header-catalog__item" data-id="15">
+                                <img src="img/menu-icon6.webp" alt="">
+                                <span class="body-m">Chevrolet</span>
+                            </div>
+                            <div class="header-catalog__item" data-id="16">
+                                <img src="img/menu-icon6.webp" alt="">
+                                <span class="body-m">Chevrolet</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-catalog__col2">
+                        <div class="submenu" data-id="1">
+                            <div class="submenu__top _flex">
+                                <button class="submenu__back">
+                                    <img src="img/back.svg" alt="">
+                                </button>
+                                <div class="h4">
+                                    Audi
+                                </div>
+                            </div>
+
+                            <ul class="submenu__items">
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="submenu" data-id="2">
+                            <div class="submenu__top _flex">
+                                <button class="submenu__back">
+                                    <img src="img/back.svg" alt="">
+                                </button>
+                                <div class="h4">
+                                    BMW
+                                </div>
+                            </div>
+
+                            <ul class="submenu__items">
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="submenu" data-id="3">
+                            <div class="submenu__top _flex">
+                                <button class="submenu__back">
+                                    <img src="img/back.svg" alt="">
+                                </button>
+                                <div class="h4">
+                                    Brilliance
+                                </div>
+                            </div>
+
+                            <ul class="submenu__items">
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="submenu" data-id="4">
+                            <div class="submenu__top _flex">
+                                <button class="submenu__back">
+                                    <img src="img/back.svg" alt="">
+                                </button>
+                                <div class="h4">
+                                    BYD
+                                </div>
+                            </div>
+
+                            <ul class="submenu__items">
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="submenu" data-id="5">
+                            <div class="submenu__top _flex">
+                                <button class="submenu__back">
+                                    <img src="img/back.svg" alt="">
+                                </button>
+                                <div class="h4">
+                                    Chery
+                                </div>
+                            </div>
+
+                            <ul class="submenu__items">
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="submenu" data-id="6">
+                            <div class="submenu__top _flex">
+                                <button class="submenu__back">
+                                    <img src="img/back.svg" alt="">
+                                </button>
+                                <div class="h4">
+                                    Chevrolet
+                                </div>
+                            </div>
+
+                            <ul class="submenu__items">
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="submenu" data-id="7">
+                            <div class="submenu__top _flex">
+                                <button class="submenu__back">
+                                    <img src="img/back.svg" alt="">
+                                </button>
+                                <div class="h4">
+                                    Citroen
+                                </div>
+                            </div>
+
+                            <ul class="submenu__items">
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="submenu" data-id="8">
+                            <div class="submenu__top _flex">
+                                <button class="submenu__back">
+                                    <img src="img/back.svg" alt="">
+                                </button>
+                                <div class="h4">
+                                    Daewoo
+                                </div>
+                            </div>
+
+                            <ul class="submenu__items">
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="submenu" data-id="9">
+                            <div class="submenu__top _flex">
+                                <button class="submenu__back">
+                                    <img src="img/back.svg" alt="">
+                                </button>
+                                <div class="h4">
+                                    Brilliance
+                                </div>
+                            </div>
+
+                            <ul class="submenu__items">
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="submenu" data-id="10">
+                            <div class="submenu__top _flex">
+                                <button class="submenu__back">
+                                    <img src="img/back.svg" alt="">
+                                </button>
+                                <div class="h4">
+                                    BYD
+                                </div>
+                            </div>
+
+                            <ul class="submenu__items">
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="submenu" data-id="11">
+                            <div class="submenu__top _flex">
+                                <button class="submenu__back">
+                                    <img src="img/back.svg" alt="">
+                                </button>
+                                <div class="h4">
+                                    Chery
+                                </div>
+                            </div>
+
+                            <ul class="submenu__items">
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="submenu" data-id="12">
+                            <div class="submenu__top _flex">
+                                <button class="submenu__back">
+                                    <img src="img/back.svg" alt="">
+                                </button>
+                                <div class="h4">
+                                    Chevrolet
+                                </div>
+                            </div>
+
+                            <ul class="submenu__items">
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="submenu" data-id="13">
+                            <div class="submenu__top _flex">
+                                <button class="submenu__back">
+                                    <img src="img/back.svg" alt="">
+                                </button>
+                                <div class="h4">
+                                    Chevrolet
+                                </div>
+                            </div>
+
+                            <ul class="submenu__items">
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="submenu" data-id="14">
+                            <div class="submenu__top _flex">
+                                <button class="submenu__back">
+                                    <img src="img/back.svg" alt="">
+                                </button>
+                                <div class="h4">
+                                    Chevrolet
+                                </div>
+                            </div>
+
+                            <ul class="submenu__items">
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="submenu" data-id="15">
+                            <div class="submenu__top _flex">
+                                <button class="submenu__back">
+                                    <img src="img/back.svg" alt="">
+                                </button>
+                                <div class="h4">
+                                    Chevrolet
+                                </div>
+                            </div>
+
+                            <ul class="submenu__items">
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="submenu" data-id="16">
+                            <div class="submenu__top _flex">
+                                <button class="submenu__back">
+                                    <img src="img/back.svg" alt="">
+                                </button>
+                                <div class="h4">
+                                    Chevrolet
+                                </div>
+                            </div>
+
+                            <ul class="submenu__items">
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+                                <li><a href="">Land Cruiser Prado</a></li>
+
+                                <li><a href="">Auris</a></li>
+                                <li><a href="">Avensis</a></li>
+                                <li><a href="">C-HR</a></li>
+                                <li><a href="">Camry</a></li>
+                                <li><a href="">Fortuner</a></li>
+                                <li><a href="">Highlander</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-catalog__bg modal-bg _toggle-catalog"></div>
+
+        </header>
+        <main class="content">
+
+            <div class="order-pay m-section _first">
+                <div class="container">
+                    <div class="order-pay__inner">
+                        <img src="img/order-pay.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="footer-top__inner">
+                        <div class="footer-top__col">
+                            <a href="" class="footer__logo">
+                                <img src="img/logo.webp" alt="">
+                            </a>
+                        </div>
+                        <div class="footer-top__col2">
+                            <div class="footer-nav">
+                                <div class="body-m bold-text">
+                                    Покупателю
+                                </div>
+                                <ul class="footer-nav__links">
+                                    <li><a href="">Каталог</a></li>
+                                    <li><a href="">Акции</a></li>
+                                    <li><a href="">Доставка</a></li>
+                                    <li><a href="">Самовывоз</a></li>
+                                    <li><a href="">Оплата заказа</a></li>
+                                    <li><a href="">Возвраты и гарантия</a></li>
+                                    <li><a href="">Оформление заказа</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-nav">
+                                <div class="body-m bold-text">
+                                    О компании
+                                </div>
+                                <ul class="footer-nav__links">
+                                    <li><a href="">О нас</a></li>
+                                    <li><a href="">Отзывы</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                    <li><a href="">Блог</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-top__col3">
+                            <div class="footer-contacts">
+                                <a href="tel:+79990552111" class="h4">
+                                    +7 (999) 055-2111
+                                </a>
+                                <div class="_mt8">
+                                    <div class="body-s">
+                                        Пн-Вс: 09:00-20:00
+                                    </div>
+                                </div>
+                                <div class="_mt24">
+                                    <a href="mailto:info@chekhly-avtodecor.ru" class="h4">
+                                        info@chekhly-avtodecor.ru
+                                    </a>
+                                </div>
+                                <div class="_mt24">
+                                    <div class="socials">
+                                        <a href="" class="socials__item">
+                                            <img src="img/whatsapp.svg" alt="">
+                                        </a>
+                                        <a href="" class="socials__item">
+                                            <img src="img/max.svg" alt="">
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div class="footer-contacts__nav">
+                                    <a href="" class="footer-contacts__link m-btn m-btn-white-outline">
+                                        <span>Онлайн консультация</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="footer-bottom__inner _flex gray-text">
+                        <div class="footer-bottom__c body-s">
+                            АвтоДекор | 2025 ©
+                        </div>
+                        <a href="" class="footer-bottom__conf body-s">
+                            Политика конфиденциальности
+                        </a>
+                        <div class="footer-bottom__desc body-s">
+                            При полном или частичном использовании материалов с сайта ссылка на источник обязательна
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mob-footer">
+                <a href="" class="mob-footer__btn">
+                    <img src="img/menu-icon.svg" alt="">
+                    <span>Главная</span>
+                </a>
+                <button class="mob-footer__btn _toggle-catalog">
+                    <img src="img/menu-icon2.svg" alt="">
+                    <span>Каталог</span>
+                </button>
+                <button class="mob-footer__btn">
+                    <img src="img/menu-icon3.svg" alt="">
+                    <span>Корзина</span>
+                    <!--        <i></i>-->
+                </button>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
